@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'OverlockRegular';
+    src: url('../font/Overlock-Regular-OTF-webfont.eot');
+    src: url('../font/Overlock-Regular-OTF-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Overlock-Regular-OTF-webfont.woff') format('woff'),
+         url('../font/Overlock-Regular-OTF-webfont.ttf') format('truetype'),
+         url('../font/Overlock-Regular-OTF-webfont.svg#OverlockRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'LiberationSansRegular';
+    src: url('../font/LiberationSans-Regular-webfont.eot');
+    src: url('../font/LiberationSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/LiberationSans-Regular-webfont.woff') format('woff'),
+         url('../font/LiberationSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/LiberationSans-Regular-webfont.svg#LiberationSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-color:#000;
+}
+#container{
+	background-image:url(../img/bkg-blo.png);
+	background-repeat:repeat;
+	margin: 0px auto;
+	position:relative;
+	width: 1024px;
+	height:768px;
+}
+#paddingtop1{
+	padding-top:80px;
+    position:relative;
+}
+#fondmenu{
+	background-image:url(../img/bkg-menu.png);
+	width:1024px;
+	height:90px;
+}
+#logo{
+	padding-left:70px;
+}
+#menu{
+	height:90px;
+	float:right;
+	padding-right:100px;
+}
+dl{
+	height:40px;
+	margin:0; 
+	padding:0;
+	display:block;
+	float:left;
+}
+dt{
+	display:block;
+	width:80px;
+	height:60px;
+	color:#FFF;
+	line-height:90px;
+	text-align:center;
+	cursor:pointer;
+    font-family: 'LiberationSansRegular';
+    font-size: 18px;
+	
+}
+dt a{
+	color:#FFF;
+	text-decoration:none;
+}
+dd{
+	display:block;
+	margin:0; 
+	padding:0;
+	background: url(../img/bkg-menu.png);
+    font-family: 'LiberationSansRegular';
+    font-size: 12px;
+	
+}
+dd ul{
+	margin:0; 
+	padding:0;
+	text-align:center;
+	list-style:none;
+}
+dd ul li a{
+	color:#FFF;
+	text-decoration:none;
+	height:60px;
+	line-height:30px;
+}
+dl dd {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+dl:hover dd{
+	display:block;
+}
+#paddingtop2{
+	padding-top:50px;
+}
+#blog{
+	background-image:url(../img/bkg-blog.png);
+	border: 1px solid #000;
+	width:755px;
+    height:480px;
+	color:#FFF;
+	margin:auto;
+}
+#accueil{
+	width:739px;
+    padding-top:2px;
+    padding-left:10px;
+    padding-right:2px;
+    font-family: 'OverlockRegular';
+    font-size: 14px;
+}
+#contact{
+    padding-left:10px;
+    font-family: 'LiberationSansRegular';
+    font-size:20px;
+}
+#accueil a{
+    text-decoration:none;
+}
+#accueil img{
+    padding-top:5px;
+    padding-left:1px;
+    padding-right:1px;    
+    border:none;
+}
+#paddingtop3{
+	padding-top: 56px;
+	padding-top: 56px !important;
+}
+#footerfond{
+	background: url(../img/bkg-menu.png);
+	width: 1024px;	
+}
+#footer{
+	width:1024px;
+	height:10px;
+}
+#footer #a3 a{
+    position:absolute;
+	height:10px;
+	color:#FFF;
+	line-height:10px;
+	text-decoration:none;
+	padding-left:442px;
+    font-family: 'OverlockRegular';
+    font-size: 8px;
+}
+#footer #a2 a{
+    position:absolute;
+	height:10px;
+	color:#FFF;
+	line-height:10px;
+	text-decoration:none;
+	padding-left:524px;
+    font-family: 'OverlockRegular';
+    font-size: 8px;
+}
